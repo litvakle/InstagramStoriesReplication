@@ -11,6 +11,7 @@
 		3AAAA8A5290A31EB00881A57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAAA8A4290A31EB00881A57 /* ContentView.swift */; };
 		3AAAA8A7290A31EE00881A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAAA8A6290A31EE00881A57 /* Assets.xcassets */; };
 		3AAAA8AA290A31EE00881A57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAAA8A9290A31EE00881A57 /* Preview Assets.xcassets */; };
+		3AAAA8B1290A332E00881A57 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAAA8B0290A332E00881A57 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		3AAAA8A4290A31EB00881A57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AAAA8A6290A31EE00881A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAAA8A9290A31EE00881A57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AAAA8B0290A332E00881A57 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		3AAAA8B2290A68E800881A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		3AAAA8A1290A31EB00881A57 /* InstagramStoriesReplication */ = {
 			isa = PBXGroup;
 			children = (
+				3AAAA8B2290A68E800881A57 /* Info.plist */,
 				3AAAA8A2290A31EB00881A57 /* InstagramStoriesReplicationApp.swift */,
 				3AAAA8A4290A31EB00881A57 /* ContentView.swift */,
+				3AAAA8B0290A332E00881A57 /* PlayerView.swift */,
 				3AAAA8A6290A31EE00881A57 /* Assets.xcassets */,
 				3AAAA8A8290A31EE00881A57 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAAA8B1290A332E00881A57 /* PlayerView.swift in Sources */,
 				3AAAA8A5290A31EB00881A57 /* ContentView.swift in Sources */,
 				3AAAA8A3290A31EB00881A57 /* InstagramStoriesReplicationApp.swift in Sources */,
 			);
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = 836WWF38RW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramStoriesReplication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = 836WWF38RW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramStoriesReplication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
